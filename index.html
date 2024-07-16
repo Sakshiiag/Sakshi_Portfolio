@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Sakshi's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          
+          <li><a href="https://github.com/Sakshiiag">Projects</a></li>
+          <li><a href="#contactme">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, I'm
+        <span class="purple"> Sakshi Agarwal</span>
+        <div>and I am a passionate</div>
+
+        <span id="element"></span>
+        <div class="button">
+          <button class="btn">Downlode resume</button>
+          <a class="btn" href="https://github.com/Sakshiiag">Github</a>
+        </div>
+      </div>
+
+      <div class="rightsection">
+        <img align="right" alt="Coding" width="700" height="500"
+          src="./sakshi-image.jpg">
+
+      </div>
+    </section>
+
+    <hr />
+   
+    <section>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+           
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p id="about-para">
+                Greetings! I'm Sakshi Agarwal, I have a solid foundation in statistical analysis and data visualization. I'm proficient in using tools like Excel, SQL, and Python to collect, clean, and interpret data. I enjoy identifying trends and patterns to provide actionable insights and support data-driven decisions. With strong problem-solving skills and an eye for detail, I'm eager to contribute to team success and drive continuous improvement.
+              </p>
+              <div class="tab-title">
+                <p class="tab-links active-links" onclick="opentab('skills')">
+                  Skills
+                </p>
+                
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    Python
+                  </li>
+                  <li>
+                    SQL
+                  </li><li>
+                    Power BI
+                  </li><li>
+                    Excel
+                  </li>
+                  <li>
+                    JavaScript
+                  </li>
+                  <li>
+                    React
+                  </li>
+                  <li>
+                    Data Cleaning
+                  </li>
+                  <li>
+                    Analysing Data
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>Batch(2021-2025)</span><br />Bachlors of Technology
+                    from (ECE) at Bundelkhand University
+                  </li>
+                  <li>
+                    <span>(2020-2021) </span><br />Sr. Secondary School
+                    Cathedral College, Jhansi (ISC)  
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      
+    </section>
+
+    <section>
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title-proj">Projects</h1>
+          <div class="work-list">
+            <div class="work-main">
+              <div class="work-para">
+                <h2 class="work-h2">Music Store Data Analysis</h2>
+                <p>I worked on a music store data analysis. In the project, I used SQL to 
+                  answer several queries about the music shop company. I use PostgreSQL as open-source, object-relational database management system </p>
+              </div>
+              <div class="work3">
+                <img id="image3"src="./music-img.jpeg">
+                <div class="layer">
+                  <h3>Music Store Data Analysis</h3>
+                  
+                  <a href="https://github.com/Sakshiiag/Music_Store_Data_Analysis_Project_SQL" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-main">
+              <div class="work-para">
+                <h2 class="work-h2">Revenue Insights in Hospitality Domain</h2>
+                <p>A company noticed a loss in their market share and revenue over a few months. To understand the cause of their loss, they needed a way to analyze this. So I created a dashboard in Power BI using three months of data. With the created dashboard, Revenue team of the company were able to gain insights about their revenue trend. This could help in regaining their revenue and market share by 20% in the next month.</p>
+              </div>
+              <div class="work">
+                <img src="./hospitality_dashboard.png">
+                <div class="layer">
+                  <h3>Revenue Insights in Hospitality Domain</h3>
+                  
+                  <a href="https://github.com/Sakshiiag/Revenue-Insights-in-Hospitality-Domain" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="work-main">
+              <div class="work-para">
+                <h2 class="work-h2">HR Analytics Dashboard</h2>
+                <p>The HR Analytics Dashboard project is designed to give HR managers and executives a clear, visual way to understand important human resources data using Power BI. This dashboard will offer insights into workforce demographics, employee performance, turnover rates, recruitment efficiency, and the overall health of the organization. By using this tool, HR leaders can make better decisions based on real data, helping to boost employee engagement, keep valuable team members, and streamline HR processes.</p>
+              </div>
+              <div class="work">
+                <img src="./HR Analytics Dashboard.png">
+                <div class="layer">
+                  <h3>HR Analytics Dashboard</h3>
+                  
+                  <a href="https://github.com/Sakshiiag/HR-Analytics-Power-BI" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="work-main">
+              <div class="work-para">
+                <h2 class="work-h2">Vrinda Store Data Analysis</h2>
+                <p>The Vrinda Store Data Analysis project gives us a clear picture of how the store is doing by diving deep into the data using Microsoft Excel. The insights we gather from this project will help the store's management team make smarter, data-driven decisions, streamline operations, and boost the overall performance of the business.</p>
+              </div>
+              <div class="work3">
+                <img id="image3" src="./Vinda store dashboard.png">
+                <div class="layer">
+                  <h3>Vrinda Store Data Analysis</h3>
+                  
+                  <a href="https://github.com/Sakshiiag/Vrinda-Store-data-analysis" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <section>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title-contact">Contact Me</h1>
+              <p> <i class="fas-fa-paper-plane">Email:  <a href="@sakshiag057@gmail.com">@sakshiag057@gmail.com</a></i></p>
+              <p> <i class="fas fa-phone-square-alt"> <+91 9125455345></i></p>
+              <div class="social-icons">
+                <a href="wa.me/+91 9125455345"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://twitter.com/sakshiiee_ag?t=czOhBplJ1oeLVxBRKvFB9A&s=09"><i
+                    class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sakshi-agarwal-82213b224"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+    <div class="footer-rights">
+      WWW.Sakshi's Portfolio.com | All Rights Reserved &#169;
+    </div>
+  </footer>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-links");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-links");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMbAk-bktVSe1uLaTgrOw4nZp-9Soa8uPKRwLqFfSpUIV2TxJpby-x-gg1QGf9Cx1wzQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Data Analyst",
+        // "MERN Developer",
+        // "DSA problebm solver",
+        // "Fullstack Developer ",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
